@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Menu">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <AnchorPane fx:id="ScenePane" prefHeight="275.0" prefWidth="300.0" style="-fx-background-color: #e2e2e2;">
+      <Text layoutX="47.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bigger or Smaller" textAlignment="CENTER" wrappingWidth="205.13671875">
+         <font>
+            <Font name="HoloLens MDL2 Assets" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="124.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="42.0" fitWidth="120.0" layoutX="166.0" layoutY="152.0" onMousePressed="#pressedAbout">
+         <image>
+            <Image url="@../gambar/About.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="120.0" layoutX="14.0" layoutY="152.0" onMousePressed="#pressedPlay">
+         <image>
+            <Image url="@../gambar/Play.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="91.0" fitWidth="113.0" layoutX="88.0" layoutY="89.0" opacity="0.1">
+         <image>
+            <Image url="@../gambar/758825.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="120.0" layoutX="90.0" layoutY="194.0" onMousePressed="#pressedExit">
+         <image>
+            <Image url="@../gambar/Exit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="81.0" layoutX="105.0" layoutY="73.0" opacity="0.1">
+         <image>
+            <Image url="@../gambar/clipart163985.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="36.0" layoutX="127.0" layoutY="23.0" opacity="0.1">
+         <image>
+            <Image url="@../gambar/kisspng-slash-clip-art-5b39d0971ced11.9983935415305156071185.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="58.0" layoutX="69.0" layoutY="24.0" opacity="0.1">
+         <image>
+            <Image url="@../gambar/SeekPng.com_math-symbols-png_883623.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="58.0" layoutX="172.0" layoutY="24.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.1">
+         <image>
+            <Image url="@../gambar/SeekPng.com_math-symbols-png_883623.png" />
+         </image>
+      </ImageView>
+   </AnchorPane>
+</GridPane>

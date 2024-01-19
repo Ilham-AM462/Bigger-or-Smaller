@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="275.0" prefWidth="300.0" style="-fx-background-color: #e2e2e2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.About">
+   <SplitPane dividerPositions="0.23756906077348067" layoutX="33.0" layoutY="31.0" orientation="VERTICAL" prefHeight="183.0" prefWidth="235.0">
+      <items>
+         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #a19291;">
+            <children>
+               <Label layoutX="95.0" layoutY="15.0" prefHeight="17.0" prefWidth="43.0" text="ABOUT" />
+            </children>
+         </AnchorPane>
+         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="156.0" prefWidth="233.0" style="-fx-background-color: #a19291;">
+            <children>
+               <Label alignment="TOP_LEFT" layoutX="6.0" layoutY="5.0" prefHeight="17.0" prefWidth="222.0" text="Ini adalah Aplikasi yang bergantung " />
+               <Label layoutX="6.0" layoutY="22.0" prefHeight="17.0" prefWidth="222.0" text="pada keberuntungan. Cara kerjanya yaitu" />
+               <Label layoutX="6.0" layoutY="39.0" prefHeight="17.0" prefWidth="222.0" text="kita menebak apakah angka selanjutnya" />
+               <Label layoutX="6.0" layoutY="56.0" prefHeight="17.0" prefWidth="222.0" text="itu lebih besar daripada angka " />
+               <Label layoutX="6.0" layoutY="73.0" prefHeight="17.0" prefWidth="222.0" text="sebelumnya atau lebih kecil" />
+               <Label layoutX="6.0" layoutY="96.0" prefHeight="17.0" prefWidth="222.0" text="  Permainan ini benar benar bergantung " textAlignment="CENTER" textFill="RED" />
+               <Label layoutX="90.0" layoutY="113.0" text="Pada RNG" textFill="RED" />
+            </children>
+         </AnchorPane>
+      </items>
+   </SplitPane>
+   <ImageView fitHeight="40.0" fitWidth="120.0" layoutX="90.0" layoutY="221.0" onMousePressed="#PressBack">
+      <image>
+         <Image url="@../gambar/back.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="91.0" fitWidth="113.0" layoutX="89.0" layoutY="87.0" opacity="0.1">
+      <image>
+         <Image url="@../gambar/758825.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="76.0" fitWidth="81.0" layoutX="106.0" layoutY="71.0" opacity="0.1">
+      <image>
+         <Image url="@../gambar/clipart163985.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="48.0" fitWidth="36.0" layoutX="128.0" layoutY="21.0" opacity="0.1">
+      <image>
+         <Image url="@../gambar/kisspng-slash-clip-art-5b39d0971ced11.9983935415305156071185.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="48.0" fitWidth="58.0" layoutX="70.0" layoutY="22.0" opacity="0.1">
+      <image>
+         <Image url="@../gambar/SeekPng.com_math-symbols-png_883623.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="48.0" fitWidth="58.0" layoutX="173.0" layoutY="22.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.1">
+      <image>
+         <Image url="@../gambar/SeekPng.com_math-symbols-png_883623.png" />
+      </image>
+   </ImageView>
+</AnchorPane>
